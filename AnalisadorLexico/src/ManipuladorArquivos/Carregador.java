@@ -3,11 +3,13 @@ package ManipuladorArquivos;
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
+//import java.util.List;
 import java.util.Scanner;
 
-import javax.swing.text.TableView;
+//import javax.swing.text.TableView;
 
 public class Carregador {
+    //@SuppressWarnings("rawtypes")
     public static void Executar() {
         Scanner ler = new Scanner(System.in);
 
